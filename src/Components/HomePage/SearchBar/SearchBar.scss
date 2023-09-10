@@ -1,0 +1,21 @@
+@import '../../../index.scss';
+
+.search-bar {
+    width: 90%;
+    margin: auto;
+    // border: 2px solid red;
+
+    input{
+        width : 100%;
+        border : 2px solid lightgray;
+        border-radius: 20px;
+        padding : 1.7vh;
+        font-size: 20px;
+
+        &:focus{
+            outline : none;
+            border : 2px solid $primary-color;
+            box-shadow: 0 0 10px $primary-color;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+@import '../../../index.scss';
+
+.pagination {
+    width: 70%;
+    margin: auto;
+    // border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__page {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        font-size: 20px;
+        background-color: rgb(21, 151, 203);
+        color: white;
+        // border: 1px solid red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 5px;
+        cursor: pointer;
+
+        &--active{
+            background-color: white;
+            border : 1px solid rgb(21, 151, 203);
+            color : rgb(21, 151, 203);
+        }
+
+        &--disabled{
+            background-color: lightgrey;
+        }
+    }
+
+}

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+html{
+    font-size: 10px;
+}
+
+body {
+    width: 100vw;
+    background-color: white;
+    height: 100vh;
+    overflow-x: hidden;
+
+    &::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background-color: rgb(205, 198, 198);
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+        background: rgb(162, 161, 161);
+    }
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+$primary-color : #e3aee3;
